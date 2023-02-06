@@ -1,0 +1,12 @@
+=============================================laravle help=====================================
+
+create project => composer create-project laravel/laravel myprojectName
+
+=====================login/register form========================
+for create login and register form => composer require laravel/ui
+for the bootstrap UI run  => php artisan ui bootstrap 
+then run => npm install and npm run dev
+then for authentication=>  php artisan ui bootstrap --auth
+then again=> npm install and npm run dev
+then in .env file=> give DB_Name,Username and Password
+then for migarte users table in DB run=> php artisan migrate
